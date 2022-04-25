@@ -18,3 +18,16 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  margin-right: 5px;
+  border-radius: 8px;
+  border: 1px solid black;
+  width: 80px;
+}
+
