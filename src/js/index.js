@@ -42,7 +42,7 @@ function oneContry(e) {
   return `<h2 style='display:flex' style='font-size:20px'><img src='${e.flags.svg}'>${e.name.official}</h2>
             <p><b>Capital: </b>${e.capital}</p>
             <p><b>Population: </b>${e.population}</p>
-            <p><b>Language: </b>${e.languages.eng}</p>`
+            <p><b>Language: </b>${Object.values(e.languages)}</p>`
 }
 
 function countryList(e) {
